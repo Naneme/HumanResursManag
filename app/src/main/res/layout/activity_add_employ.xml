@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddEmploy">
+    <TextView
+        android:id="@+id/add_text_view_lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/last_name"/>
+    <EditText
+        android:id="@+id/edit_text_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:inputType="text"
+        android:autofillHints="" />
+    <TextView
+        android:id="@+id/add_text_view_firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_name"/>
+    <EditText
+        android:id="@+id/edit_text_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        android:inputType="text"
+        android:autofillHints="" />
+    <TextView
+        android:id="@+id/add_text_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"/>
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:autofillHints="" />
+    <TextView
+        android:id="@+id/add_text_view_pasport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pasport"/>
+    <EditText
+        android:id="@+id/edit_text_pasport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pasport"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/add_text_view_identityNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/identity_number"/>
+    <EditText
+        android:id="@+id/edit_text_identityNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/identity_number"
+        android:inputType="number"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/add_text_view_salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salary"/>
+    <EditText
+        android:id="@+id/edit_text_salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/salary"
+        android:inputType="number"
+        android:autofillHints="" />
+    <TextView
+        android:id="@+id/add_text_view_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/position"/>
+    <Spinner
+        android:id="@+id/action_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

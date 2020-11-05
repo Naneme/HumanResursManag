@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HumanResursManag</string>
+    <string name="add">Employ Management</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="name">Name</string>
+    <string name="pasport">Pasport</string>
+    <string name="identity_number">Identity Number</string>
+    <string name="salary">Salary</string>
+    <string name="position">Position</string>
+    <string name="todo">TODO</string>
+</resources>

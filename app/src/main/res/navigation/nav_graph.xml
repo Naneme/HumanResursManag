@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity2">
+
+    <activity
+        android:id="@+id/addEmploy"
+        android:name="com.example.humanresursmanag.AddEmploy"
+        android:label="activity_add_employ"
+        tools:layout="@layout/activity_add_employ" />
+    <activity
+        android:id="@+id/employActivity"
+        android:name="com.example.humanresursmanag.EmployActivity"
+        android:label="activity_employ"
+        tools:layout="@layout/activity_employ">
+        <action
+            android:id="@+id/action_employ_to_addEmploy"
+            app:destination="@id/addEmploy" />
+        <action
+            android:id="@+id/action_main_to_graph"
+            app:destination="@id/graphicsActivity" />
+    </activity>
+
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="com.example.humanresursmanag.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main">
+        <action
+            android:id="@+id/action_main_to_employ"
+            app:destination="@id/employActivity" />
+    </activity>
+    <activity
+        android:id="@+id/graphicsActivity"
+        android:name="com.example.humanresursmanag.GraphicsActivity"
+        android:label="activity_graphics"
+        tools:layout="@layout/activity_graphics" />
+
+</navigation>
